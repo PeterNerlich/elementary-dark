@@ -20,4 +20,4 @@ As easy as installing: just run `uninstall.sh` with `sudo`.
 
 If the theme doesn't switch, change GTK+ back to elementary in Tweaks or execute
 
-	gsettings set org.gnome.desktop.interface gtk-theme 'elementary-dark'
+	gsettings set org.gnome.desktop.interface gtk-theme 'elementary'
