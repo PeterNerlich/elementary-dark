@@ -4,6 +4,11 @@ This is the [standard gtk 2.0 theme from elementary](https://github.com/elementa
 
 > Please be aware that this only acts as a proxy-theme, containing the patched dark gtk2.0 theme and otherwise just linking to [/usr/share/themes/elementary](https://github.com/elementary/stylesheet) — so you need to have that installed as well, else your GTK3 apps will look wrong.
 
+![dark variant](https://i.imgur.com/flVjbZp.jpg)
+
+Default for comparison:
+![default variant (light gtk2 apps)](https://i.imgur.com/5PnOsPA.jpg)
+
 ## Installing
 
 Just run the `install.sh` script with `sudo`. As always, don't just blindly execute anything you download from the internet, *especially* not with `sudo` — so I made this as simple and compact as possible. There is not much to do.
