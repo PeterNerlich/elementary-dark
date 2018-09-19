@@ -1,5 +1,8 @@
 #!/bin/sh
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+cd $DIR
+
 mkdir /usr/share/themes/elementary-dark &&
 cp -r ./* /usr/share/themes/elementary-dark &&
 ln -s /usr/share/themes/elementary/gtk-3.0 /usr/share/themes/elementary-dark/gtk-3.0 &&
